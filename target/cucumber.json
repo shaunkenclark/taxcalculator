@@ -1,0 +1,102 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1986591379,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TODO: Implement getLocation in similar fashion to ScalaStepDefinition"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Complete tax calculation",
+        "description": "",
+        "id": "tax-calculator;complete-tax-calculation",
+        "after": [
+          {
+            "result": {
+              "duration": 78945881,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TODO: Implement getLocation in similar fashion to ScalaStepDefinition"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1207939911,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I navigate to the tax calculator page",
+            "match": {
+              "location": "TaxCalculationSteps.scala:11"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2915736993,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter an amount and navigate with no to all option",
+            "match": {
+              "location": "TaxCalculationSteps.scala:14"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 381160555,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select get results",
+            "match": {
+              "location": "TaxCalculationSteps.scala:33"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143955258,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I land on the pension info page",
+            "match": {
+              "location": "TaxCalculationSteps.scala:36"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Tax Calculator",
+    "description": "",
+    "id": "tax-calculator",
+    "keyword": "Feature",
+    "uri": "TaxCalculation.feature"
+  }
+]
