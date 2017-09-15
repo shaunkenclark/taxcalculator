@@ -16,7 +16,7 @@
         "before": [
           {
             "result": {
-              "duration": 1986591379,
+              "duration": 830442909,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 78945881,
+              "duration": 70710071,
               "status": "passed"
             },
             "match": {
@@ -44,7 +44,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1207939911,
+              "duration": 764083253,
               "status": "passed"
             },
             "line": 7,
@@ -56,7 +56,7 @@
           },
           {
             "result": {
-              "duration": 2915736993,
+              "duration": 1169577365,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 381160555,
+              "duration": 196707498,
               "status": "passed"
             },
             "line": 9,
@@ -80,11 +80,11 @@
           },
           {
             "result": {
-              "duration": 143955258,
+              "duration": 33805203,
               "status": "passed"
             },
             "line": 10,
-            "name": "I land on the pension info page",
+            "name": "I get the correct results",
             "match": {
               "location": "TaxCalculationSteps.scala:36"
             },

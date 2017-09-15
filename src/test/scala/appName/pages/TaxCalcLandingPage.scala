@@ -6,7 +6,7 @@ import org.openqa.selenium.{By, WebDriver, WebElement}
   * Created by shaunclark on 15/09/17.
   */
 object TaxCalcLandingPage extends WebPage{
-  override val url: String = "http://localhost:7788/estimate-paye-take-home-pay"
+  override val url: String = getUrl(7788) + "/estimate-paye-take-home-pay"
 
   override def expectedPageHeader: Option[String] = Some("How much do you get paid?")
   override def expectedPageTitle: Option[String] = Some("How much do you get paid?")

@@ -17,7 +17,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1986591379,
+  "duration": 830442909,
   "status": "passed"
 });
 formatter.scenario({
@@ -45,39 +45,39 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "I land on the pension info page",
+  "name": "I get the correct results",
   "keyword": "Then "
 });
 formatter.match({
   "location": "TaxCalculationSteps.scala:11"
 });
 formatter.result({
-  "duration": 1207939911,
+  "duration": 764083253,
   "status": "passed"
 });
 formatter.match({
   "location": "TaxCalculationSteps.scala:14"
 });
 formatter.result({
-  "duration": 2915736993,
+  "duration": 1169577365,
   "status": "passed"
 });
 formatter.match({
   "location": "TaxCalculationSteps.scala:33"
 });
 formatter.result({
-  "duration": 381160555,
+  "duration": 196707498,
   "status": "passed"
 });
 formatter.match({
   "location": "TaxCalculationSteps.scala:36"
 });
 formatter.result({
-  "duration": 143955258,
+  "duration": 33805203,
   "status": "passed"
 });
 formatter.after({
-  "duration": 78945881,
+  "duration": 70710071,
   "status": "passed"
 });
 });
