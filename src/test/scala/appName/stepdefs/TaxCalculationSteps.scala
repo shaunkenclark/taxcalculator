@@ -27,14 +27,18 @@ class TaxCalculationSteps extends Steps {
     ScottishIncomeTaxPage.shouldBeLoaded()
     ScottishIncomeTaxPage.getNoRadio().click()
     ScottishIncomeTaxPage.getContinueButton().submit()
-
-    CheckAnswersPage.shouldBeLoaded()
   }
   And("""^I select get results$""") { () =>
+    CheckAnswersPage.shouldBeLoaded()
+    val answers: List[String] = CheckAnswersPage.getAnswers()
+    answers(0) shouldBe "£10,000 a year"
+    answers(1) shouldBe "No"
+    answers(2) shouldBe "No - we’ll use the default (1150L)"
+    answers(3) shouldBe "No"
     CheckAnswersPage.getResultsButton().click()
   }
   Then("""I get the correct results$""") { () =>
     ResultsPage.shouldBeLoaded()
-    ResultsPage.getResult() == "£9,779.68 a year"
+    ResultsPage.getResult() shouldBe "£9,779.68 a year"
   }
 }

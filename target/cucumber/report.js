@@ -17,7 +17,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 830442909,
+  "duration": 842835666,
   "status": "passed"
 });
 formatter.scenario({
@@ -52,32 +52,32 @@ formatter.match({
   "location": "TaxCalculationSteps.scala:11"
 });
 formatter.result({
-  "duration": 764083253,
+  "duration": 776249411,
   "status": "passed"
 });
 formatter.match({
   "location": "TaxCalculationSteps.scala:14"
 });
 formatter.result({
-  "duration": 1169577365,
+  "duration": 1155769143,
   "status": "passed"
 });
 formatter.match({
-  "location": "TaxCalculationSteps.scala:33"
+  "location": "TaxCalculationSteps.scala:31"
 });
 formatter.result({
-  "duration": 196707498,
+  "duration": 376990554,
   "status": "passed"
 });
 formatter.match({
-  "location": "TaxCalculationSteps.scala:36"
+  "location": "TaxCalculationSteps.scala:40"
 });
 formatter.result({
-  "duration": 33805203,
+  "duration": 65753775,
   "status": "passed"
 });
 formatter.after({
-  "duration": 70710071,
+  "duration": 73811160,
   "status": "passed"
 });
 });

@@ -12,6 +12,6 @@ object ResultsPage extends WebPage{
   override def expectedPageTitle: Option[String] = Some("Your estimated take-home pay")
 
   def getResult()(implicit driver: WebDriver): String = {
-    driver.findElement(By.id("your-take-home-pay-Year")).toString
+    driver.findElement(By.id("your-take-home-pay-Year")).getText
   }
 }

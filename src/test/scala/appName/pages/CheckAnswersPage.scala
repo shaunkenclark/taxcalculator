@@ -14,4 +14,10 @@ object CheckAnswersPage extends WebPage{
   def getResultsButton()(implicit driver: WebDriver): WebElement = {
     driver.findElement(By.id("get-results"))
   }
+  def getAnswers()(implicit driver: WebDriver): List[String] = {
+    List(driver.findElement(By.id("value-income")).getText,
+      driver.findElement(By.id("value-pension-state")).getText,
+      driver.findElement(By.id("value-tax-code")).getText,
+      driver.findElement(By.id("value-scottish_rate")).getText)
+  }
 }
